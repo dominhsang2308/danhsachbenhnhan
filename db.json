@@ -1,0 +1,131 @@
+{
+  "danhsachbenhnhan": [
+    {
+      "tenbenhnhan": "Nguyễn lê bảo toàn",
+      "hokhau": "0001100011",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-11T17:00:00.000Z",
+      "phongbenh": " Ngoại trú",
+      "benh": "đẹp trai",
+      "id": 1
+    },
+    {
+      "tenbenhnhan": "Nguyễn Văn B",
+      "hokhau": "11444",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-03T17:00:00.000Z",
+      "phongbenh": " Ngoại trú",
+      "benh": "Điên",
+      "id": 4
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "1111",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-05T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "asda",
+      "id": 5
+    },
+    {
+      "tenbenhnhan": "Sanggg",
+      "hokhau": "111123",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-18T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "asdasd",
+      "id": 6
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "1123124414",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-19T17:00:00.000Z",
+      "phongbenh": " Ngoại trú",
+      "benh": "szxczx1111",
+      "id": 7
+    },
+    {
+      "tenbenhnhan": "Snb",
+      "hokhau": "112312",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-04T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "Dep",
+      "id": 8
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "1111",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-05T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "asda",
+      "id": 9
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "111112312",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-05T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "asda",
+      "id": 10
+    },
+    {
+      "tenbenhnhan": "Sanglol",
+      "hokhau": "1123411",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-05T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "SDe",
+      "id": 11
+    },
+    {
+      "tenbenhnhan": "Linhk",
+      "hokhau": "11231",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-06T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "XInh",
+      "id": 12
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "1241411",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-04T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "Lona",
+      "id": 13
+    },
+    {
+      "tenbenhnhan": "Sang",
+      "hokhau": "1241411",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-04T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "Lona",
+      "id": 14
+    },
+    {
+      "tenbenhnhan": "LMoa",
+      "hokhau": "112312",
+      "gioitinh": "Nam",
+      "ngaysinh": "2022-05-09T17:00:00.000Z",
+      "phongbenh": "Nội trú",
+      "benh": "LMAO",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

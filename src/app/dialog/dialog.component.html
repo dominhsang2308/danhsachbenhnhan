@@ -1,0 +1,43 @@
+<h1 mat-dialog-title>Thêm Bệnh Nhân</h1>
+<div mat-dialog-content>
+    <form [formGroup]="thembenhnhanform">
+        <mat-form-field appearance="outline">
+            <mat-label>Tên Bệnh Nhân</mat-label>
+            <input formControlName="tenbenhnhan" matInput placeholder="Tên Bệnh Nhân">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Hộ Chiếu</mat-label>
+            <input formControlName="hokhau" matInput placeholder="Hộ Chiếu">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Giới Tính</mat-label>
+            <mat-select formControlName="gioitinh" placeholder="Giới tính">
+                <mat-option value="Nam">Nam</mat-option>
+                <mat-option value="Nữ">Nữ</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Bệnh</mat-label>
+            <input formControlName="benh" matInput placeholder="Bệnh">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Ngày Sinh</mat-label>
+            <input formControlName="ngaysinh" matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <label>
+            <h1>Loại Phòng Bệnh</h1>
+        </label>
+        <mat-radio-group formControlName="phongbenh" class="example-radio-group">
+            <mat-radio-button  class="example-radio-button" *ngFor="let loaiphong of loaiphongbenh " [value]="loaiphong">
+                {{loaiphong}}
+            </mat-radio-button>
+        </mat-radio-group>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary" (click)="addBenhnhan()">{{actionBtn}}</button>
+</div>
