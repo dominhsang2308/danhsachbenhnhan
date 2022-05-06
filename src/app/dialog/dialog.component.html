@@ -1,13 +1,14 @@
-<h1 mat-dialog-title>Thêm Bệnh Nhân</h1>
+<h1 mat-dialog-title>{{titleaction}}</h1>
 <div mat-dialog-content>
-    <form [formGroup]="thembenhnhanform">
+    <form [formGroup]="thembenhnhanform" (ngSubmit)="onSubmit()">
         <mat-form-field appearance="outline">
-            <mat-label>Tên Bệnh Nhân</mat-label>
+            <mat-label >Tên Bệnh Nhân</mat-label>
+
             <input formControlName="tenbenhnhan" matInput placeholder="Tên Bệnh Nhân">
         </mat-form-field>
         <mat-form-field appearance="outline">
             <mat-label>Hộ Chiếu</mat-label>
-            <input formControlName="hokhau" matInput placeholder="Hộ Chiếu">
+            <input formControlName="hokhau" matInput placeholder="Hộ Chiếu" >
         </mat-form-field>
         <mat-form-field appearance="outline">
             <mat-label>Giới Tính</mat-label>
@@ -35,9 +36,11 @@
                 {{loaiphong}}
             </mat-radio-button>
         </mat-radio-group>
+        <div mat-dialog-actions [align]="'end'">
+          <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+          <button mat-raised-button color="primary" type="submit"(click)="addBenhnhan()" >{{actionBtn}}</button>
+      </div>
     </form>
+   
 </div>
-<div mat-dialog-actions [align]="'end'">
-    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
-    <button mat-raised-button color="primary" (click)="addBenhnhan()">{{actionBtn}}</button>
-</div>
+
